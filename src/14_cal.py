@@ -34,6 +34,9 @@ from datetime import datetime
 date = datetime.now()
 argLength = len(sys.argv)
 
+month = 0
+year = 0
+
 if argLength == 2:
   month == int(sys.argv[1])
   year == datetime.now().year
